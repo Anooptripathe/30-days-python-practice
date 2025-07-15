@@ -1,0 +1,24 @@
+You’re tasked with designing a database system for Swipe Inc., a company that manages payments for software developers. Swipe manages a set of APIs so developers can abstract payment processes for their web service and transfer control over to Swipe’s APIs to manage payment security and finance handling (contacting credit card providers, etc.)
+
+Your database system should store a collection of API keys with their attributes, as shown in the example below:
+
+{
+  "API_key":{
+    "Transaction_list":{
+      "User_ID":{
+        "Name":{
+         "f_name": 
+         "l_name": 
+        }
+      "Card_Details":{
+        "Bank":
+        "Card_No":
+        "Expiry":
+        "CV":
+      }  
+      }
+    }
+    "Curr_balance":
+  }
+}
+What are the functional and non-functional requirements for this database?
